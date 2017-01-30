@@ -39,6 +39,7 @@ export class <%= entityClass %>PopupService {
                     <%_ } _%>
                 <%_ } _%>
                 this.<%= entityInstance %>ModalRef(component, <%= entityInstance %>);
+                console.log("yo");
             });
         } else {
             return this.<%= entityInstance %>ModalRef(component, new <%= entityClass %>());
